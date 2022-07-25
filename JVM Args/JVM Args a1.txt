@@ -1,0 +1,8 @@
+Minecraft  Java SE
+JVM Args.txt
+
+-Xms3G -Xmx3G -Xmn1G -server -XX:+TieredCompilation -XX:+UseG1GC -XX:+UseFastAccessorMethods -XX:+AggressiveOpts -XX:+ReduceSignalUsage -XX:+UseFastEmptyMethods -XX:+UseSharedSpaces -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:-UseAdaptiveSizePolicy -XX:G1NewSizePercent=20 -XX:InitiatingHeapOccupancyPercent=65 -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=35 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:MetaspaceSize=128M -XX:MaxMetaspaceSize=128M -Xverify:none -XX:+DisableExplicitGC
+
+本jvm参数适用于 java8 以及其他版本 (未测试)
+注意，如果你的启动器自带运行内存调试功能，请去掉"-Xms3G -Xmx3G "
+如果你的启动器不自带运行内存调试功能，请尝试调试"-Xms3G -Xmx3G "里的数字以到达最佳效果 如果你不清楚jvm是什么，请不要随意调试！除非你知道你在做什么！
