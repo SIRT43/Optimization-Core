@@ -1,3 +1,4 @@
+![image](https://github.com/SIRT43/Optimization-Core/blob/main/a4.png)
 # Optimization-Core
 ![image](https://github.com/SIRT43/Optimization-Core/blob/main/a4.png)
 Optimization-Core 实时更新开发进度以及包
