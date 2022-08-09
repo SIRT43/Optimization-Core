@@ -1,4 +1,4 @@
-# Optimization-Core
+# <p align="center">Optimization-Core</p>
 
 ![](https://github.com/SIRT43/SIRT43.github.io/releases/download/logo/logo.png)
 
