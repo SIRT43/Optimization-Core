@@ -1,6 +1,6 @@
 # Optimization-Core
 
-![](a4.png)
+![](https://github.com/SIRT43/SIRT43.github.io/releases/download/logo/logo.png)
 
 Optimization-Core 实时更新开发进度以及包  
 这里的 项目文件 是一个模板 用于记录位置与信息  
